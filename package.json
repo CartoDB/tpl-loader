@@ -9,8 +9,7 @@
   },
   "keywords": [
     "ejs",
-    "underscrore",
-    "lodash",
+    "underscore",
     "_",
     "webpack",
     "loader",
@@ -22,6 +21,6 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "lodash": "*"
+    "underscore": "*"
   }
 }
