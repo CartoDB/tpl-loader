@@ -12,7 +12,7 @@ Lodash template loader for [webpack](http://webpack.github.io/). Uses `_.templat
 
 ``` javascript
 var template = require("tpl!./file.html");
-// => returns the template function compiled with undesrcore (lodash) templating engine.
+// => returns the template function compiled with underscore (lodash) templating engine.
 
 // And then use it somewhere in your code
 template(data) // Pass object with data
