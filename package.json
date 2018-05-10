@@ -22,5 +22,11 @@
   "license": "MIT",
   "peerDependencies": {
     "underscore": "*"
+  },
+  "scripts": {
+    "bump": "npm version patch",
+    "bump:major": "npm version major",
+    "bump:minor": "npm version minor",
+    "postversion": "git push origin master --follow-tags"
   }
 }
