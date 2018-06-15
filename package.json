@@ -28,5 +28,8 @@
     "bump:major": "npm version major",
     "bump:minor": "npm version minor",
     "postversion": "git push origin master --follow-tags"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0"
   }
 }
